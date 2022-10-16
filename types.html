@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="ko" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="https://pokemon.fandom.com/ko/load.php?lang=ko&amp;modules=ext.fandom.ArticleInterlang.css%7Cext.fandom.ArticleVideo.desktopNew.css%7Cext.fandom.CreatePage.css%7Cext.fandom.FandomEmbedVideo.css%7Cext.fandom.GlobalComponents.CommunityHeader.css%7Cext.fandom.GlobalComponents.CommunityHeaderBackground.css%7Cext.fandom.GlobalComponents.GlobalComponentsTheme.light.css%7Cext.fandom.GlobalComponents.GlobalFooter.css%7Cext.fandom.GlobalComponents.GlobalNavigation.css%7Cext.fandom.GlobalComponents.GlobalNavigationTheme.default.css%7Cext.fandom.GlobalComponents.StickyNavigation.css%7Cext.fandom.HighlightToAction.css%7Cext.fandom.Thumbnails.css%7Cext.fandom.UserPreferencesV2.css%7Cext.fandom.bannerNotifications.desktop.css%7Cext.fandom.quickBar.css%7Cext.fandomVideo.css%7Cext.staffSig.css%7Cext.visualEditor.desktopArticleTarget.noscript%7Cskin.fandomdesktop.CargoTables-ext.css%7Cskin.fandomdesktop.FanFeed.css%7Cskin.fandomdesktop.Math.css%7Cskin.fandomdesktop.rail.css%7Cskin.fandomdesktop.rail.popularPages.css%7Cskin.fandomdesktop.styles%7Cvendor.bootstrap.popover.css&amp;only=styles&amp;skin=fandomdesktop"/>
+<script async="" src="https://pokemon.fandom.com/ko/load.php?cb=20210930153009&amp;lang=ko&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=fandomdesktop"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="https://pokemon.fandom.com/ko/load.php?lang=ko&amp;modules=site.styles&amp;only=styles&amp;skin=fandomdesktop"/>
+<meta name="generator" content="MediaWiki 1.37.6"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta property="og:type" content="article"/>
+<meta property="og:site_name" content="포켓몬 위키"/>
+<meta property="og:title" content="타입 상성표"/>
+<meta property="og:url" content="https://pokemon.fandom.com/ko/wiki/%ED%83%80%EC%9E%85_%EC%83%81%EC%84%B1%ED%91%9C"/>
+<meta property="og:description" content="타입 상성표는 각 타입의 상성 관계를 하나의 표에 나타낸 것이다. 타입이 1개인 포켓몬의 경우는 타입 상성표에 있는 그대로 계산하면 된다. 타입이 2개인 포켓몬은 각 타입의 해당하는 배율을 서로 곱한 결과를 사용한다. 예를 들어 불꽃/비행타입인 리자몽에게 바위타입의 기술을 사용하면 불꽃타입과 비행타입 각각 2배의 데미지를 받기 때문에 총 4배의 데미지를 받게 된다. 반대로 리자몽에게 땅타입의 기술을 사용하면 불꽃타입은 2배, 비행타입은 0배의 데미지를 받기 떄문에 0배의 데미지, 즉 아무런 데미지를 받지 않는다. 2세대에서 강철타입과 악타입이 추가되었고 6세대에서 페어리 타입이 추가되었다. 5세대까지의 강철타입은 고스트와 악 기술에 대해 1/2 데미지를 받았지만, 6세대부터는 1배의 데미지를 받도록 변경되었다. 7세대부터는 기술선택 창에서 효과가 좋음 (2배이상) , 효과 있음 (1배) , 효과가 별로임(1/2이하), 효과없음(0배)를 표시해주는 기능이 생겼다. 스토리 내 배틀 (길"/>
+<meta property="og:image" content="https://static.wikia.nocookie.net/ucp-internal-test-starter-commons/images/a/aa/FandomFireLogo.png/revision/latest?cb=20210713142711"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@getfandom"/>
+<meta name="twitter:url" content="https://pokemon.fandom.com/ko/wiki/%ED%83%80%EC%9E%85_%EC%83%81%EC%84%B1%ED%91%9C"/>
+<meta name="twitter:title" content="타입 상성표 | 포켓몬 위키 | Fandom"/>
+<meta name="twitter:description" content="타입 상성표는 각 타입의 상성 관계를 하나의 표에 나타낸 것이다. 타입이 1개인 포켓몬의 경우는 타입 상성표에 있는 그대로 계산하면 된다. 타입이 2개인 포켓몬은 각 타입의 해당하는 배율을 서로 곱한 결과를 사용한다. 예를 들어 불꽃/비행타입인 리자몽에게 바위타입의 기술을 사용하면 불꽃타입과 비행타입 각각 2배의 데미지를 받기 때문에 총 4배의..."/>
+<meta name="description" content="타입 상성표는 각 타입의 상성 관계를 하나의 표에 나타낸 것이다. 타입이 1개인 포켓몬의 경우는 타입 상성표에 있는 그대로 계산하면 된다. 타입이 2개인 포켓몬은 각 타입의 해당하는 배율을 서로 곱한 결과를 사용한다. 예를 들어 불꽃/비행타입인 리자몽에게 바위타입의 기술을 사용하면 불꽃타입과 비행타입 각각 2배의 데미지를 받기 때문에 총 4배의 데미지를 받게 된다. 반대로 리자몽에게 땅타입의 기술을 사용하면 불꽃타입은 2배, 비행타입은 0배의 데미지를 받기 떄문에 0배의 데미지, 즉 아무런 데미지를 받지 않는다. 2세대에서..."/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0"/>
+<link href="https://pokemon.fandom.com/ko/wikia.php?controller=ThemeApi&amp;method=themeVariables&amp;cityId=58329&amp;version=1665835015" rel="stylesheet"/>
+<link rel="shortcut icon" href="/skins-ucp/v2/common/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="https://pokemon.fandom.com/ko/opensearch_desc.php" title="포켓몬 위키 (ko)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://pokemon.fandom.com/ko/api.php?action=rsd"/>
+<link rel="license" href="https://www.fandom.com/licensing"/>
+<link rel="canonical" href="https://pokemon.fandom.com/ko/wiki/%ED%83%80%EC%9E%85_%EC%83%81%EC%84%B1%ED%91%9C"/>
+	<meta property="fb:app_id" content="112328095453510" prefix="fb: http://www.facebook.com/2008/fbml"/>   
+<h2><span id="XY.EB.B6.80.ED.84.B0"></span><span class="mw-headline" id="XY부터">XY부터</span></h2>
+<table class="w-100 wikitable text-center">
+
+<tbody><tr>
+<td colspan="2" rowspan="2">
+</td>
+<th colspan="18">포켓몬의 타입 (공격받는 쪽 타입)
+</th></tr>
+<tr>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #A8A878;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%85%B8%EB%A7%90_(%ED%83%80%EC%9E%85)" title="노말 (타입)"><span class="split-cell text-white" style="background:#A8A878">노말</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #F08030;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%B6%88%EA%BD%83_(%ED%83%80%EC%9E%85)" title="불꽃 (타입)"><span class="split-cell text-white" style="background:#F08030">불꽃</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #6890F0;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%AC%BC_(%ED%83%80%EC%9E%85)" title="물 (타입)"><span class="split-cell text-white" style="background:#6890F0">물</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #F8D030;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EC%A0%84%EA%B8%B0_(%ED%83%80%EC%9E%85)" title="전기 (타입)"><span class="split-cell text-white" style="background:#F8D030">전기</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #78C850;"></span><a href="https://pokemon.fandom.com/ko/wiki/%ED%92%80_(%ED%83%80%EC%9E%85)" title="풀 (타입)"><span class="split-cell text-white" style="background:#78C850">풀</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #98D8D8;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EC%96%BC%EC%9D%8C_(%ED%83%80%EC%9E%85)" title="얼음 (타입)"><span class="split-cell text-white" style="background:#98D8D8">얼음</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #C03028;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EA%B2%A9%ED%88%AC_(%ED%83%80%EC%9E%85)" title="격투 (타입)"><span class="split-cell text-white" style="background:#C03028">격투</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #A040A0;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%8F%85_(%ED%83%80%EC%9E%85)" title="독 (타입)"><span class="split-cell text-white" style="background:#A040A0">독</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #E0C068;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%95%85_(%ED%83%80%EC%9E%85)" title="땅 (타입)"><span class="split-cell text-white" style="background:#E0C068">땅</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #A890F0;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%B9%84%ED%96%89_(%ED%83%80%EC%9E%85)" title="비행 (타입)"><span class="split-cell text-white" style="background:#A890F0">비행</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #F85888;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EC%97%90%EC%8A%A4%ED%8D%BC_(%ED%83%80%EC%9E%85)" title="에스퍼 (타입)"><span class="split-cell text-white" style="background:#F85888">에스퍼</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #A8B820;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%B2%8C%EB%A0%88_(%ED%83%80%EC%9E%85)" title="벌레 (타입)"><span class="split-cell text-white" style="background:#A8B820">벌레</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #B8A038;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%B0%94%EC%9C%84_(%ED%83%80%EC%9E%85)" title="바위 (타입)"><span class="split-cell text-white" style="background:#B8A038">바위</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #705898;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EA%B3%A0%EC%8A%A4%ED%8A%B8_(%ED%83%80%EC%9E%85)" title="고스트 (타입)"><span class="split-cell text-white" style="background:#705898">고스트</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #7038F8;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%93%9C%EB%9E%98%EA%B3%A4_(%ED%83%80%EC%9E%85)" title="드래곤 (타입)"><span class="split-cell text-white" style="background:#7038F8">드래곤</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #705848;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EC%95%85_(%ED%83%80%EC%9E%85)" title="악 (타입)"><span class="split-cell text-white" style="background:#705848">악</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #B8B8D0;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EA%B0%95%EC%B2%A0_(%ED%83%80%EC%9E%85)" title="강철 (타입)"><span class="split-cell text-white" style="background:#B8B8D0">강철</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #EE99AC;"></span><a href="https://pokemon.fandom.com/ko/wiki/%ED%8E%98%EC%96%B4%EB%A6%AC_(%ED%83%80%EC%9E%85)" title="페어리 (타입)"><span class="split-cell text-white" style="background:#EE99AC">페어리</span></a></span>
+</td></tr>
+<tr>
+<th rowspan="18" style="width: 1.5em">기술의 타입<br /><br />(공격하는 쪽 타입)
+</th>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #A8A878;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%85%B8%EB%A7%90_(%ED%83%80%EC%9E%85)" title="노말 (타입)"><span class="split-cell text-white" style="background:#A8A878">노말</span></a></span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png" /></a></td>
+<td><img alt="상성표 엑스.png" src="https://static.wikia.nocookie.net/pokemon/images/f/f6/%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png/revision/latest/scale-to-width-down/20?cb=20140914162817&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 엑스.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png" /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png" /></a></td>
+<td>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #F08030;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%B6%88%EA%BD%83_(%ED%83%80%EC%9E%85)" title="불꽃 (타입)"><span class="split-cell text-white" style="background:#F08030">불꽃</span></a></span></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #6890F0;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%AC%BC_(%ED%83%80%EC%9E%85)" title="물 (타입)"><span class="split-cell text-white" style="background:#6890F0">물</span></a></span></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #F8D030;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EC%A0%84%EA%B8%B0_(%ED%83%80%EC%9E%85)" title="전기 (타입)"><span class="split-cell text-white" style="background:#F8D030">전기</span></a></span></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 엑스.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 엑스.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #78C850;"></span><a href="https://pokemon.fandom.com/ko/wiki/%ED%92%80_(%ED%83%80%EC%9E%85)" title="풀 (타입)"><span class="split-cell text-white" style="background:#78C850">풀</span></a></span></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #98D8D8;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EC%96%BC%EC%9D%8C_(%ED%83%80%EC%9E%85)" title="얼음 (타입)"><span class="split-cell text-white" style="background:#98D8D8">얼음</span></a></span></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #C03028;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EA%B2%A9%ED%88%AC_(%ED%83%80%EC%9E%85)" title="격투 (타입)"><span class="split-cell text-white" style="background:#C03028">격투</span></a></span></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 엑스.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 엑스.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #A040A0;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%8F%85_(%ED%83%80%EC%9E%85)" title="독 (타입)"><span class="split-cell text-white" style="background:#A040A0">독</span></a></span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 엑스.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 엑스.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #E0C068;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%95%85_(%ED%83%80%EC%9E%85)" title="땅 (타입)"><span class="split-cell text-white" style="background:#E0C068">땅</span></a></span></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 엑스.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 엑스.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #A890F0;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%B9%84%ED%96%89_(%ED%83%80%EC%9E%85)" title="비행 (타입)"><span class="split-cell text-white" style="background:#A890F0">비행</span></a></span></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #F85888;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EC%97%90%EC%8A%A4%ED%8D%BC_(%ED%83%80%EC%9E%85)" title="에스퍼 (타입)"><span class="split-cell text-white" style="background:#F85888">에스퍼</span></a></span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 엑스.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 엑스.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #A8B820;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%B2%8C%EB%A0%88_(%ED%83%80%EC%9E%85)" title="벌레 (타입)"><span class="split-cell text-white" style="background:#A8B820">벌레</span></a></span></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #B8A038;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%B0%94%EC%9C%84_(%ED%83%80%EC%9E%85)" title="바위 (타입)"><span class="split-cell text-white" style="background:#B8A038">바위</span></a></span></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #705898;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EA%B3%A0%EC%8A%A4%ED%8A%B8_(%ED%83%80%EC%9E%85)" title="고스트 (타입)"><span class="split-cell text-white" style="background:#705898">고스트</span></a></span></td>
+<td><img alt="상성표 엑스.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 엑스.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #7038F8;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%93%9C%EB%9E%98%EA%B3%A4_(%ED%83%80%EC%9E%85)" title="드래곤 (타입)"><span class="split-cell text-white" style="background:#7038F8">드래곤</span></a></span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 엑스.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 엑스.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #705848;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EC%95%85_(%ED%83%80%EC%9E%85)" title="악 (타입)"><span class="split-cell text-white" style="background:#705848">악</span></a></span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #B8B8D0;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EA%B0%95%EC%B2%A0_(%ED%83%80%EC%9E%85)" title="강철 (타입)"><span class="split-cell text-white" style="background:#B8B8D0">강철</span></a></span></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #EE99AC;"></span><a href="https://pokemon.fandom.com/ko/wiki/%ED%8E%98%EC%96%B4%EB%A6%AC_(%ED%83%80%EC%9E%85)" title="페어리 (타입)"><span class="split-cell text-white" style="background:#EE99AC">페어리</span></a></span></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td>
+</td></tr>
+<tr>
+<td colspan="20">
+<p> <img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a> -효과는 굉장했다(데미지 2배),  "표시없음"-데미지 1배<br />
+    <img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a>-효과는 별로였다(데미지 1/2), <img alt="상성표 엑스.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 엑스.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png"   /></a>-효과가 없다(데미지 없음)
+</p>
+</td></tr></tbody></table>
+<h2><span id=".EB.B8.94.EB.9E.99.2C.ED.99.94.EC.9D.B4.ED.8A.B8.EA.B9.8C.EC.A7.80"></span><span class="mw-headline" id="블랙,화이트까지">블랙,화이트까지</span></h2>
+<table class="w-100 wikitable text-center">
+
+<tbody><tr>
+<td colspan="2" rowspan="2">
+</td>
+<th colspan="17">포켓몬의 타입 (공격받는 쪽 타입)
+</th></tr>
+<tr>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #A8A878;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%85%B8%EB%A7%90_(%ED%83%80%EC%9E%85)" title="노말 (타입)"><span class="split-cell text-white" style="background:#A8A878">노말</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #F08030;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%B6%88%EA%BD%83_(%ED%83%80%EC%9E%85)" title="불꽃 (타입)"><span class="split-cell text-white" style="background:#F08030">불꽃</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #6890F0;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%AC%BC_(%ED%83%80%EC%9E%85)" title="물 (타입)"><span class="split-cell text-white" style="background:#6890F0">물</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #F8D030;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EC%A0%84%EA%B8%B0_(%ED%83%80%EC%9E%85)" title="전기 (타입)"><span class="split-cell text-white" style="background:#F8D030">전기</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #78C850;"></span><a href="https://pokemon.fandom.com/ko/wiki/%ED%92%80_(%ED%83%80%EC%9E%85)" title="풀 (타입)"><span class="split-cell text-white" style="background:#78C850">풀</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #98D8D8;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EC%96%BC%EC%9D%8C_(%ED%83%80%EC%9E%85)" title="얼음 (타입)"><span class="split-cell text-white" style="background:#98D8D8">얼음</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #C03028;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EA%B2%A9%ED%88%AC_(%ED%83%80%EC%9E%85)" title="격투 (타입)"><span class="split-cell text-white" style="background:#C03028">격투</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #A040A0;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%8F%85_(%ED%83%80%EC%9E%85)" title="독 (타입)"><span class="split-cell text-white" style="background:#A040A0">독</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #E0C068;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%95%85_(%ED%83%80%EC%9E%85)" title="땅 (타입)"><span class="split-cell text-white" style="background:#E0C068">땅</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #A890F0;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%B9%84%ED%96%89_(%ED%83%80%EC%9E%85)" title="비행 (타입)"><span class="split-cell text-white" style="background:#A890F0">비행</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #F85888;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EC%97%90%EC%8A%A4%ED%8D%BC_(%ED%83%80%EC%9E%85)" title="에스퍼 (타입)"><span class="split-cell text-white" style="background:#F85888">에스퍼</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #A8B820;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%B2%8C%EB%A0%88_(%ED%83%80%EC%9E%85)" title="벌레 (타입)"><span class="split-cell text-white" style="background:#A8B820">벌레</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #B8A038;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%B0%94%EC%9C%84_(%ED%83%80%EC%9E%85)" title="바위 (타입)"><span class="split-cell text-white" style="background:#B8A038">바위</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #705898;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EA%B3%A0%EC%8A%A4%ED%8A%B8_(%ED%83%80%EC%9E%85)" title="고스트 (타입)"><span class="split-cell text-white" style="background:#705898">고스트</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #7038F8;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%93%9C%EB%9E%98%EA%B3%A4_(%ED%83%80%EC%9E%85)" title="드래곤 (타입)"><span class="split-cell text-white" style="background:#7038F8">드래곤</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #705848;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EC%95%85_(%ED%83%80%EC%9E%85)" title="악 (타입)"><span class="split-cell text-white" style="background:#705848">악</span></a></span>
+</td>
+<td style="width: 2em"><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #B8B8D0;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EA%B0%95%EC%B2%A0_(%ED%83%80%EC%9E%85)" title="강철 (타입)"><span class="split-cell text-white" style="background:#B8B8D0">강철</span></a></span>
+</td></tr>
+<tr>
+<th rowspan="17" style="width: 1.5em">기술의 타입<br /><br />(공격하는 쪽 타입)
+</th>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #A8A878;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%85%B8%EB%A7%90_(%ED%83%80%EC%9E%85)" title="노말 (타입)"><span class="split-cell text-white" style="background:#A8A878">노말</span></a></span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 엑스.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 엑스.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #F08030;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%B6%88%EA%BD%83_(%ED%83%80%EC%9E%85)" title="불꽃 (타입)"><span class="split-cell text-white" style="background:#F08030">불꽃</span></a></span></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #6890F0;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%AC%BC_(%ED%83%80%EC%9E%85)" title="물 (타입)"><span class="split-cell text-white" style="background:#6890F0">물</span></a></span></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #F8D030;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EC%A0%84%EA%B8%B0_(%ED%83%80%EC%9E%85)" title="전기 (타입)"><span class="split-cell text-white" style="background:#F8D030">전기</span></a></span></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 엑스.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 엑스.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #78C850;"></span><a href="https://pokemon.fandom.com/ko/wiki/%ED%92%80_(%ED%83%80%EC%9E%85)" title="풀 (타입)"><span class="split-cell text-white" style="background:#78C850">풀</span></a></span></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #98D8D8;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EC%96%BC%EC%9D%8C_(%ED%83%80%EC%9E%85)" title="얼음 (타입)"><span class="split-cell text-white" style="background:#98D8D8">얼음</span></a></span></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #C03028;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EA%B2%A9%ED%88%AC_(%ED%83%80%EC%9E%85)" title="격투 (타입)"><span class="split-cell text-white" style="background:#C03028">격투</span></a></span></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 엑스.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 엑스.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #A040A0;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%8F%85_(%ED%83%80%EC%9E%85)" title="독 (타입)"><span class="split-cell text-white" style="background:#A040A0">독</span></a></span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 엑스.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 엑스.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #E0C068;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%95%85_(%ED%83%80%EC%9E%85)" title="땅 (타입)"><span class="split-cell text-white" style="background:#E0C068">땅</span></a></span></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 엑스.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 엑스.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #A890F0;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%B9%84%ED%96%89_(%ED%83%80%EC%9E%85)" title="비행 (타입)"><span class="split-cell text-white" style="background:#A890F0">비행</span></a></span></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #F85888;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EC%97%90%EC%8A%A4%ED%8D%BC_(%ED%83%80%EC%9E%85)" title="에스퍼 (타입)"><span class="split-cell text-white" style="background:#F85888">에스퍼</span></a></span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 엑스.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 엑스.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #A8B820;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%B2%8C%EB%A0%88_(%ED%83%80%EC%9E%85)" title="벌레 (타입)"><span class="split-cell text-white" style="background:#A8B820">벌레</span></a></span></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #B8A038;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%B0%94%EC%9C%84_(%ED%83%80%EC%9E%85)" title="바위 (타입)"><span class="split-cell text-white" style="background:#B8A038">바위</span></a></span></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #705898;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EA%B3%A0%EC%8A%A4%ED%8A%B8_(%ED%83%80%EC%9E%85)" title="고스트 (타입)"><span class="split-cell text-white" style="background:#705898">고스트</span></a></span></td>
+<td><img alt="상성표 엑스.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 엑스.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #7038F8;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EB%93%9C%EB%9E%98%EA%B3%A4_(%ED%83%80%EC%9E%85)" title="드래곤 (타입)"><span class="split-cell text-white" style="background:#7038F8">드래곤</span></a></span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #705848;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EC%95%85_(%ED%83%80%EC%9E%85)" title="악 (타입)"><span class="split-cell text-white" style="background:#705848">악</span></a></span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a>
+</td></tr>
+<tr>
+<td><span class="split-cell-wrap text-center"><span class="split-cell-bg" style="background: #B8B8D0;"></span><a href="https://pokemon.fandom.com/ko/wiki/%EA%B0%95%EC%B2%A0_(%ED%83%80%EC%9E%85)" title="강철 (타입)"><span class="split-cell text-white" style="background:#B8B8D0">강철</span></a></span></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /></a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a>
+</td></tr>
+<tr>
+<td colspan="19">
+<p><img alt="상성표 동그라미.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 동그라미.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png"   /> -효과는 굉장했다(데미지 2배),  "표시없음"-데미지 1배<br />
+<img alt="상성표 세모.png" src="https://static.wikia.nocookie.net/pokemon/images/7/7f/%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png/revision/latest/scale-to-width-down/20?cb=20140914162812&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 세모.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%84%B8%EB%AA%A8.png"   /></a>-효과는 별로였다(데미지 1/2), <img alt="상성표 엑스.png" src="https://static.wikia.nocookie.net/pokemon/images/5/59/%EC%83%81%EC%84%B1%ED%91%9C_%EB%8F%99%EA%B7%B8%EB%9D%BC%EB%AF%B8.png/revision/latest/scale-to-width-down/20?cb=20140914162808&path-prefix=ko" decoding="async" width="20" height="20" data-image-name="상성표 엑스.png" data-image-key="%EC%83%81%EC%84%B1%ED%91%9C_%EC%97%91%EC%8A%A4.png"   /></a>-효과가 나지 않는다(데미지 0)
+</p>
+</td></tr></tbody></table>
+</div></head></html>
